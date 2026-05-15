@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#FEC8D8;
+}
+
+nav{
+    background:rgba(255,255,255,0.4);
+    backdrop-filter:blur(12px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;    
+    align-items:center;
+}
+
+nav h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+    color:#ff1493;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav ul :hover{
+    color:#D291BC
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+}
+
+.inicio{
+    height:40vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    background:linear-gradient(#ffd6ec,#FEC8D8);
+}
+
+.texto h2{
+    padding-top: 230px;
+    text-align: center;
+    color:#ff1493;
+}
+
+.texto p{
+    margin-top:20px;
+    font-size:22px;
+}
+
+.frase{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.frase h2{
+    color:#ff1493;
+    margin-bottom:20px;
+}
+
+.ropa{
+    padding:60px 20px;
+}
+
+.titulo{
+    text-align:center;
+    color:#FF1493;
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+.contenedor{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.caja{
+    background:#FFB5C0;
+    border-radius:20px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.5s;
+}
+
+.caja:hover{
+    transform:scale(1.03);
+}
+
+.caja img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.caja h3{
+    margin:15px 0 10px;
+}
+
+.caja p{
+    padding-bottom:20px;
+}
+
+.info{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:60px 20px;
+}
+
+.cuadro{
+    background:#FFB5C0;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.cuadro h3{
+    color:#FF1493;
+    margin-bottom:15px;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#E57D90;
+    color:black;
+}
